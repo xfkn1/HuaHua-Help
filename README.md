@@ -1,54 +1,17 @@
-## 功能
+## 下面是机器人的功能列表
 
 <details>
-  <summary>插件控制</summary>
+  <summary>管理菜单</summary>
 
-  - [x] /响应 (在发送的群/用户开始工作)
+  - [x] /启用 xxx (在发送的群启用xx功能)
 
-  - [x] /沉默 (在发送的群/用户停止工作)
-
-  - [x] /全局响应 (在所有位置开始工作，无视单独的沉默)
-
-  - [x] /全局沉默 (在所有本应沉默的位置停止工作，显式指定启用的位置不受影响)
-
-  - [x] /启用 xxx (在发送的群/用户启用xxx)
-
-  - [x] /禁用 xxx (在发送的群/用户禁用xxx)
-
-  - [x] /全局启用 xxx
-
-  - [x] /全局禁用 xxx
-
-  - [x] /还原 xxx (在发送的群/用户还原xxx的开启状态到初始状态)
-
-  - 注：当全局未配置或与默认相同时，状态取决于单独配置，后备为默认配置；当全局与默认不同时，状态取决于全局配置，单独配置失效。
-
-  - [x] /改变默认启用状态 xxx
-
-  - [x] /禁止 service qq1 qq2... (禁止 qqs 使用服务 service)
-
-  - [x] /允许 service qq1 qq2... (重新允许 qqs 使用服务 service)
-
-  - [x] /封禁 qq1 qq2... (禁止 qqs 使用全部服务)
-
-  - [x] /解封 qq1 qq2... (允许 qqs 使用全部服务)
+  - [x] /禁用 xxx (在发送的群禁用xx功能)
 
   - [x] /用法 xxx
 
   - [x] /服务列表
 
-  - [x] /设置服务列表显示行数 xx
-
-	默认值为9,该设置仅运行时有效,zbp重启后重置
-  - [x] @Bot 插件冲突检测 (会在本群发送一条消息并在约 1s 后撤回以检测其它同类 bot 中已启用的插件并禁用)
-
-</details>
-<details>
-  <summary>动态加载插件</summary>
-
-  `import _ "github.com/FloatTech/ZeroBot-Plugin-Dynamic/dyloader"`
-
-  - 本功能需要`cgo`，故已分离出主线。详见[ZeroBot-Plugin-Dynamic](https://github.com/FloatTech/ZeroBot-Plugin-Dynamic)
+  * 以上功能仅群主/管理可使用
 
 </details>
 

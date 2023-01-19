@@ -14,7 +14,7 @@
   * 以上功能仅群主/管理可使用
 
 </details>
-———————————
+————————————
 <details>
   <summary>聊天</summary>
 
@@ -200,7 +200,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-### *中优先级*
+————————————
 <details>
   <summary>ahsai tts</summary>
 
@@ -1105,7 +1105,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-### *低优先级*
+————————————
 
 <details>
   <summary>骂人</summary>
@@ -1123,3 +1123,5 @@ print("run[CQ:image,file="+j["img"]+"]")
   - [x] 设置回复模式[青云客 | 小爱]
 
 </details>
+
+感谢您选择了椛椛！

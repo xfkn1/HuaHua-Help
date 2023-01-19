@@ -467,9 +467,9 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>漂流瓶</summary>
 
-  - [x] @Bot pick (随机捞一个漂流瓶)
+  - [x] @Bot 捞瓶子 (随机捞一个漂流瓶)
 
-  - [x] @Bot throw xxx (投递内容xxx,支持图片文字,投递内容需要大于10个字符或者带有图片)
+  - [x] @Bot 扔瓶子 xxx (投递内容xxx,支持图片文字,投递内容需要大于10个字符或者带有图片)
 
 </details>
 <details>

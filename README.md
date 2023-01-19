@@ -40,7 +40,7 @@
 </details>
 <details>
   <summary>ATRI</summary>
-  `
+  
   - [x] 具体指令看 /用法 atri
 
 </details>

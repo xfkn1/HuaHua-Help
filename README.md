@@ -1,25 +1,22 @@
 ## 下面是机器人的功能列表
 
 <details>
-  <summary>管理菜单</summary>
+  <summary>群主/管理指令</summary>
 
   - [x] /启用 xxx (在发送的群启用xx功能)
 
   - [x] /禁用 xxx (在发送的群禁用xx功能)
 
-  - [x] /用法 xxx
-
   - [x] /服务列表
+  
+  - [x] /用法 xxx
 
   * 以上功能仅群主/管理可使用
 
 </details>
 
-### *高优先级*
 <details>
   <summary>聊天</summary>
-
-  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat"`
 
   - [x] [BOT名字]
 

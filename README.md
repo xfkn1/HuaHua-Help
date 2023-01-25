@@ -602,7 +602,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
   - [x] 吟唱提示[xxxx]
 
-</details
+</details>
 <details>
   <summary>日韩 VITS 模型拟声</summary>
 
@@ -1001,4 +1001,4 @@ print("run[CQ:image,file="+j["img"]+"]")
 </details>
 
 ————————————
-### 以上是所有功能,感谢您选择椛椛！
+#### 以上是所有功能,感谢您选择椛椛！

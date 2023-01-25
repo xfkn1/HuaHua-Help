@@ -1,6 +1,6 @@
-### 下面是椛椛的功能列表
+## 下面是椛椛的功能列表
 上次修改时间：2023年1月26日
-##### 群主/管理指令
+#### 群主/管理指令
 <details>
   <summary>插件控制</summary>
 
@@ -16,7 +16,7 @@
 
 </details>
 
-##### 高优先级
+#### 高优先级
 <details>
   <summary>睡眠记录</summary>
 
@@ -970,7 +970,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-##### 低优先级
+#### 低优先级
 <details>
   <summary>人工智能回复</summary>
 
@@ -980,4 +980,4 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-### 感谢您使用椛椛！
+## 感谢您使用椛椛！

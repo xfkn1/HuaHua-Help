@@ -1,7 +1,8 @@
 ## 下面是椛椛的功能列表
-#### 更新时间：2023年1月26日
+上次修改时间：2023年1月26日
+##### 群主/管理指令
 <details>
-  <summary>群主/管理指令</summary>
+  <summary>插件控制</summary>
 
   - [x] /启用 xxx (在发送的群启用xx功能)
 
@@ -15,7 +16,7 @@
 
 </details>
 
-————————————
+##### 高优先级
 <details>
   <summary>睡眠记录</summary>
 
@@ -179,7 +180,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-————————————
+##### 中优先级
 <details>
   <summary>ahsai tts</summary>
 
@@ -968,29 +969,8 @@ print("run[CQ:image,file="+j["img"]+"]")
   - [x] 团队七阶猜单词
 
 </details>
-<details>
-  <summary>一些游戏王插件</summary>
-  
-  ##### 白鸽API卡查
-	    
-  ###### `"github.com/FloatTech/ZeroBot-Plugin/plugin/ygo/ygocdb.go"`
-  - [x] /ydp [xxx]
-  - [x] /yds [xxx]
-  - [x] /ydb [xxx]
-  - 注：[xxx]为搜索内容;p:返回一张图片;s:返回一张效果描述;b:高级搜索
-	
-  ##### 集换社卡价查询
 
-  ###### `"github.com/FloatTech/ZeroBot-Plugin/plugin/ygo/ygotrade.go"`
-  - [x] 查卡价 [卡名]
-  - [x] 查卡价 [卡名] -r [稀有度 稀有度 ...]
-  - [x] 查卡店  [卡名]
-  - [x] 查卡店  [卡名] -r [稀有度]
-  - 注：卡店只支持单个稀有度查询
-	
-</details>
-
-————————————
+##### 低优先级
 <details>
   <summary>人工智能回复</summary>
 
@@ -1000,5 +980,4 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-————————————
 #### 以上是所有功能,感谢您选择椛椛！

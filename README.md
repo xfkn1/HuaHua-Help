@@ -215,16 +215,10 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>支付宝到账语音</summary>
-
-  - [x] 支付宝到账 1
-
-</details>
-<details>
   <summary>触发者撤回时也自动撤回</summary>
 
 
-  - [x] 你撤回了椛椛也会跟着撤回
+  - [x] 你撤回了指令, 椛椛也会撤回
 
 </details>
 <details>

@@ -980,4 +980,4 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 
-#### 以上是所有功能,感谢您选择椛椛！
+## 感谢您使用椛椛！

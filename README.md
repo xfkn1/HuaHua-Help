@@ -1,5 +1,5 @@
-## 下面是椛椛的功能列表
-
+# 下面是椛椛的功能列表
+### 更新时间：2023年1月26日
 <details>
   <summary>群主/管理指令</summary>
 
@@ -17,31 +17,9 @@
 
 ————————————
 <details>
-  <summary>聊天</summary>
-
-  - [x] [BOT名字]
-
-  - [x] [戳一戳BOT]
-
-  - [x] 空调开
-
-  - [x] 空调关
-
-  - [x] 群温度
-
-  - [x] 设置温度[正整数]
-
-</details>
-<details>
-  <summary>睡眠管理</summary>
+  <summary>睡眠记录</summary>
 
   - [x] 早安 | 晚安
-
-</details>
-<details>
-  <summary>ATRI</summary>
-  
-  - [x] 具体指令看 /用法 atri
 
 </details>
 <details>
@@ -209,14 +187,6 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>AIfalse</summary>
-
-  - [x] 查询计算机当前活跃度: [检查身体 | 自检 | 启动自检 | 系统状态]
-
-  - [x] 设置默认限速为每 m [分钟 | 秒] n 次触发
-
-</details>
-<details>
   <summary>ai绘图</summary>
 
   - [x] [ ai绘图 | 生成色图 | 生成涩图 | ai画图 ] xxx
@@ -254,7 +224,7 @@ print("run[CQ:image,file="+j["img"]+"]")
   <summary>触发者撤回时也自动撤回</summary>
 
 
-  - [x] 撤回一条消息
+  - [x] 你撤回了椛椛也会跟着撤回
 
 </details>
 <details>
@@ -479,16 +449,6 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>好友申请及群聊邀请事件处理</summary>
-
-  - [x] [开启|关闭]自动同意[申请|邀请|主人]
-
-  - [x] [同意|拒绝][申请|邀请][flag]
-
-  - flag跟随事件一起发送, 默认同意主人的事件
-
-</details>
-<details>
   <summary>渲染任意文字到图片</summary>
 
   - [x] (用[终末体|终末变体|紫罗兰体|樱酥体|Consolas体|苹方体])渲染文字xxx
@@ -622,6 +582,7 @@ print("run[CQ:image,file="+j["img"]+"]")
   <summary>小鸡词典</summary>
 
   - [x] [查梗|小鸡词典][梗]
+  * 由于小鸡词典官方问题，此功能暂时无法使用
 
 </details>
 <details>
@@ -643,47 +604,11 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>lolicon</summary>
-
-  - [x] 随机图片
-
-  - [x] 随机图片 萝莉|少女
-
-  - [x] 设置随机图片地址[http...]
-
-  - 每一小时发一张图
-```
-记录在"@every 1h"触发的指令
-来份萝莉
-```
-
-</details>
-<details>
   <summary>MagicPrompt-Stable-Diffusion吟唱提示</summary>
 
   - [x] 吟唱提示[xxxx]
 
-</details>
-<details>
-  <summary>简易midi音乐制作</summary>
-
-  - [x] midi制作 CCGGAAGR FFEEDDCR GGFFEEDR GGFFEEDR CCGGAAGR FFEEDDCR
-
-  - [x] 个人听音练习
-  
-  - [x] 团队听音练习
-  
-  - [x] *.mid (midi 转 txt)
-  
-  - [x] midi制作*.txt (txt 转 midi)
-  
-  - [x] 设置音色40 (0~127)
-
-  - [x] 注: 该插件需要安装timidity, linux安装脚本可参考 https://gitcode.net/anto_july/midi/-/raw/master/timidity.sh, windows安装脚本可参考 https://gitcode.net/anto_july/midi/-/raw/master/timidity.bat?inline=false, windows需要管理员模式运行
-  
-  - [x] 符号说明: C5是中央C,后面不写数字,默认接5,Cb6<1,b代表降调,#代表升调,6比5高八度,<1代表音长×2,<3代表音长×8,<-1代表音长×0.5,<-3代表音长×0.125,R是休止符
-
-</details>
+</details
 <details>
   <summary>日韩 VITS 模型拟声</summary>
 
@@ -730,22 +655,6 @@ print("run[CQ:image,file="+j["img"]+"]")
   - [x] 酷我点歌[xxx]
 
   - [x] 酷狗点歌[xxx]
-
-</details>
-<details>
-  <summary>本地涩图</summary>
-
-  - [x] 本地[xxx]
-
-  - [x] 刷新本地[xxx]
-
-  - [x] 设置本地setu绝对路径[xxx]
-
-  - [x] 刷新所有本地setu
-
-  - [x] 所有本地setu分类
-
-  - 注：刷新文件夹较慢，请耐心等待刷新完成，会提示“成功”。
 
 </details>
 <details>
@@ -861,7 +770,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>投胎</summary>
 
-  - [x] reborn
+  - [x] 投胎
 
   - 注：本插件来源于[tgbot](https://github.com/YukariChiba/tgbot/blob/main/modules/Reborn.py)
 
@@ -1086,36 +995,8 @@ print("run[CQ:image,file="+j["img"]+"]")
   - 注：卡店只支持单个稀有度查询
 	
 </details>
-<details>
-  <summary>词典匹配回复</summary>
-
-  - [x] 切换[kimo|傲娇|可爱]词库
-  - [x] 设置词库触发概率0.x (0<x<9)
-
-  - 注：由于占用资源较大，默认注释。
-
-</details>
-<details>
-  <summary>鬼东西</summary>
-
-  - [x] 鬼东西列表
-
-  - [x] 查询鬼东西[序号][@xxx]
-
-  - 注：由于需要科学，默认注释。
-
-</details>
 
 ————————————
-
-<details>
-  <summary>骂人</summary>
-
-  - [x] 骂我
-
-  - [x] 大力骂我
-
-</details>
 <details>
   <summary>人工智能回复</summary>
 

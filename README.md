@@ -674,7 +674,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>娶群友</summary>
+  <summary>一群一天一夫一妻制群老婆</summary>
 
   - 引入好感度系统，好感度越高，自由恋爱成功率越高
   
@@ -946,6 +946,8 @@ print("run[CQ:image,file="+j["img"]+"]")
   - [x] 骂我
 
   - [x] 大力骂我
+
+  - 注：默认禁用，开启请发送/启用 curse
 
 </details>
 <details>

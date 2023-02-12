@@ -941,6 +941,14 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 #### 低优先级
 <details>
+  <summary>骂人</summary>
+
+  - [x] 骂我
+
+  - [x] 大力骂我
+
+</details>
+<details>
   <summary>人工智能回复</summary>
 
   - [x] @Bot 任意文本(任意一句话回复)

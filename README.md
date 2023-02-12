@@ -1,5 +1,5 @@
 ## 下面是椛椛的功能列表
-上次修改时间：2023年1月26日
+上次修改时间：2023年2月13日
 #### 群主/管理指令
 <details>
   <summary>插件控制</summary>
@@ -185,28 +185,6 @@ print("run[CQ:image,file="+j["img"]+"]")
   <summary>ahsai tts</summary>
 
   - [x] 使[ 伊織弓鶴 | 紲星あかり | 結月ゆかり | 京町セイカ |東北きりたん | 東北イタコ | ついなちゃん標準語 | ついなちゃん関西弁 | 音街ウナ | 琴葉茜 | 吉田くん | 民安ともえ | 桜乃そら | 月読アイ | 琴葉葵 | 東北ずん子 | 月読ショウタ | 水奈瀬コウ ]说(日语)
-
-</details>
-<details>
-  <summary>ai绘图</summary>
-
-  - [x] [ ai绘图 | 生成色图 | 生成涩图 | ai画图 ] xxx
-
-  - [x] [ ai高级绘图 | 高级生成色图 | 高级生成涩图 | ai高级画图 ] xxx
-
-  - [x] [ 以图绘图 | 以图生图 | 以图画图 ] xxx [图片]|@xxx|[qq号]
-  
-  - [x] 设置ai绘图配置 [server] [token]
-  
-  - [x] 设置ai绘图撤回时间90s
-  
-  - [x] 查看ai绘图配置
-  
-  例: 设置ai绘图配置 http://91.216.169.75:5010 abc
-
-  参考服务器 http://91.217.139.190:5010, http://91.216.169.75:5010, http://185.80.202.180:5010
-
-  通过 http://91.217.139.190:5010/token 获取token
 
 </details>
 <details>
@@ -432,9 +410,9 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>漂流瓶</summary>
 
-  - [x] @Bot 捞瓶子 (随机捞一个漂流瓶)
+  - [x] 捞瓶子 (随机捞一个漂流瓶)
 
-  - [x] @Bot 扔瓶子 xxx (投递内容xxx,支持图片文字,投递内容需要大于10个字符或者带有图片)
+  - [x] 丢瓶子 xxx (投递内容xxx,支持图片文字,投递内容需要大于10个字符或者带有图片)
 
 </details>
 <details>
@@ -574,13 +552,6 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>小鸡词典</summary>
-
-  - [x] [查梗|小鸡词典][梗]
-  * 由于小鸡词典官方问题，此功能暂时无法使用
-
-</details>
-<details>
   <summary>日语听力学习材料</summary>
 
   - [x] 随机日语听力
@@ -703,7 +674,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 </details>
 <details>
-  <summary>一群一天一夫一妻制群老婆</summary>
+  <summary>娶群友</summary>
 
   - 引入好感度系统，好感度越高，自由恋爱成功率越高
   
@@ -766,8 +737,6 @@ print("run[CQ:image,file="+j["img"]+"]")
   <summary>投胎</summary>
 
   - [x] 投胎
-
-  - 注：本插件来源于[tgbot](https://github.com/YukariChiba/tgbot/blob/main/modules/Reborn.py)
 
 </details>
 <details>

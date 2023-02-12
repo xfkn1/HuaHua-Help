@@ -948,5 +948,3 @@ print("run[CQ:image,file="+j["img"]+"]")
   - [x] 设置回复模式[青云客 | 小爱]
 
 </details>
-
-## 感谢您使用椛椛！

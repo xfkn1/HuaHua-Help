@@ -414,6 +414,8 @@ print("run[CQ:image,file="+j["img"]+"]")
 
   - [x] 丢瓶子 xxx (投递内容xxx,支持图片文字,投递内容需要大于10个字符或者带有图片)
 
+  * 注：不要往里面丢涩图
+
 </details>
 <details>
   <summary>合成emoji</summary>
